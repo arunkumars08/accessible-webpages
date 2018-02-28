@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Needs to identify the primary language of the website -->
+    <head>
+        <title>Accessible Web page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+    <body>
+        <header role="banner"><!-- Needs to specify it as the header element -->
+            This is the header
+        </header>
+        <nav role="navigation"><!-- Navigation -->
+            <ul role="menubar"><!-- Menubar -->
+                <li role="menuitem">item 1</li> <!-- Menuitem -->
+                <li role="menuitem">item 2</li>
+            </ul>
+        </nav>
+        <main role="main"> <!-- main content start -->
+            <article role="article"> <!-- article role -->
+                This is the main article
+            </article>
+        </main>
+        <aside role="complementary"> <!-- complementary content eg.) Sidebar -->
+            This is a complementary note
+        </aside>
+        <footer role="contentinfo"> <!-- Footer and there can be only one instance of contentinfo -->
+            This is the footer
+        </footer>
+    </body>
+</html>
