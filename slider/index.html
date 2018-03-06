@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Accessible Slider</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <section role="banner">
+            <span aria-live="polite" id="current-image"></span>
+            <article id="slider-container">
+                <img class="selected" aria-hidden="false" src="images/1.jpg" alt="Abstract Photo 1" />
+                <img aria-hidden="true" src="images/2.png" alt="Abstract Photo 2" />
+                <img aria-hidden="true" src="images/3.jpg" alt="Abstract Photo 3" />
+                <img aria-hidden="true" src="images/4.jpeg" alt="Abstract Photo 4" />
+            </article>
+            <button id="prev" aria-label="Prev Image">Prev Image</button>
+            <button id="next" aria-label="Next Image">Next Image</button>
+        </section>
+
+        <!-- Load scripts -->
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>

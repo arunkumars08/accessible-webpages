@@ -1,0 +1,13 @@
+section article {
+    width: 500px;
+    overflow: hidden;
+}
+
+
+img {
+    display: none;
+}
+
+.selected {
+    display: block;
+}
