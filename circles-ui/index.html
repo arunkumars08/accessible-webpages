@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Accessible Google Plus Circle Mock</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <section>
+            <button id="addToCircles" role="button">Add to Circles</button>
+            <ul role="dialog" id="circles" tabindex="0">
+                <li role="listitem">
+                    <input type="checkbox" aria-checked="false" aria-label="Friends 0" role="checkbox" />
+                    <span>Friends 0</span>
+                </li>
+                <li role="listitem">
+                    <input type="checkbox" aria-checked="false" aria-label="Family 1"  role="checkbox" />
+                    <span>Family 1</span>
+                </li>
+                <li role="listitem">
+                    <input type="checkbox" aria-checked="false" aria-label="Acquaintainces 0"  role="checkbox" />
+                    <span>Acquaintainces 0</span>
+                </li>
+                <li role="listitem">
+                    <input type="checkbox" aria-checked="false" aria-label="Followers 0"  role="checkbox" />
+                    <span>Followers 0</span>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Load scripts -->
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
